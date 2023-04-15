@@ -4,8 +4,6 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import CommentBox from './commentBox'
 
-const inter = Inter({ subsets: ['latin'] })
-
 export default function Home() {
   return (
     <div className='w-screen h-screen bg-gray-300'>
